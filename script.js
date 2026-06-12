@@ -197,7 +197,7 @@ const conteudo = document.getElementById("conteudo");
 const musica = document.getElementById("musica");
 
 entrar.addEventListener("click", () => {
-musica.play();
+    
     conteudo.style.display = "block";
 
     conteudo.scrollIntoView({
